@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: aquire;
+}
+h1{
+    font-size: xx-large;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: aquire;
+    src: url('./AquireLight-YzE0o.otf');
+    src: url('./AquireBold-8Ma60.otf');
+    src: url('./Aquire-BW0ox.otf');
+}
+
+#navbar{
+    position: fixed;
+    width: 100vw;
+    font-family: aquire;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+}
+#navbar ul li{
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 8px;
+    color: white;
+}
+#navbar ul li a{
+    color: white;    
+    text-decoration: none;
+    font-size: medium;
+}
+#navbar ul li a:hover{
+    font-size: x-large;
+}
+#sale-img{
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.sub-heading{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin: 3px;
+}
+.main-div-collection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.div1 img{
+    width: 100%;
+}
+.sub-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.div2{
+    width: 65vw;
+    display: flex;
+    flex-direction: row;
+}
+.sub-div img{
+    width: 85%;
+    border: 2px black groove;
+}
+.cart{
+    width: 87%;
+    height: 40px;
+    border: 5px double violet;
+    background-color: black;
+    color: white;
+}
+.cart:hover{
+    background-color: white;
+    color: black;
+}
+
+.section-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-div p{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec-main-div{
+    width: 70%;
+    background: linear-gradient(45deg,pink 28%,aqua ,yellow);
+}
+
+.about-div{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.about-div img{
+    height: 70vh;
+}
+.about-div p{
+    margin: 25px;
+    
+}
+
+
+
+#headings{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:3px ;
+    padding-bottom: 3px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact #section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+}
+.contact-section1-div1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width:600px ;
+}
+.contact-section1-div2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.contact-section1-div2 i{
+    font-size: 2.7rem;
+}
+/* #contact #section1 div{
+    width: 400px;
+    margin: 20px;
+}
+#contact #section1 .div1{
+    padding-left: 10px;
+}
+#contact #section1 .div2{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+} */
+#email{
+    padding: 30px 80px 30px 30px;
+    width: 100%;
+}
+#email-btn{
+    padding: 30px 50px;
+    background-color: black;
+    color: whitesmoke;
+}
+/* #contact #section1 .div3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 35px;
+} */
+
+
+
+
+#contact #section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#section2 div{
+    
+    margin: 60px auto 60px 50px ;
+    width: 250px;
+}
+#section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+#payment{
+    width: 200px;
+}
+#secure{
+    width: 140px;
+}
