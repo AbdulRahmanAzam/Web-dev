@@ -1,0 +1,359 @@
+/* :root{
+
+} */
+
+@font-face {
+    font-family: aquire;
+    src: url( "./AquireLight-YzE0o.otf");
+    src: url( "./AquireBold-8Ma60.otf");
+}
+@font-face {
+    font-family: cheorcy ;
+    src: url("./Cheorcy-axmaJ.otf");
+}
+@font-face {
+    font-family: heart ;
+    src: url("./greatheart.ttf");
+}
+@font-face {
+    font-family: beauty;
+    src: url("./Beauty\ Stella\ Demo\ Version.otf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 197, 207);
+    color: antiquewhite; 
+    width: 100%;
+    font: size 13px;    
+    font-family: sans-serif;
+}
+
+h4{
+    color: rgb(0, 195, 255);
+    font-family: 'aquire';
+}
+
+.left-div h1{
+    font-family: 'aquire';
+    font-size: xx-large;
+    margin-left: 30px;
+    
+}
+
+.leftmaindiv{
+    display: flex;
+    flex-direction: row;
+    background: #212121;
+    /* margin: 20px; */
+    /* width: 1310px; */
+    height: 100%;
+    border-radius: 20px;
+}
+#left-div-div{
+    /* background-color: #777777;
+    width: 200px; */
+}
+.left-div{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(255, 0, 0)  ; */
+    position: fixed;
+    /* margin-bottom: 20px; */
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 200px;
+    height: 100%;    
+    border-right: white solid 1px;   
+    backdrop-filter: blur(10px);
+    background-color:#3c434e;
+    /* border-top-left-radius:20px ;
+    border-bottom-left-radius: 20px; */
+}
+
+.left-div ul li{
+    list-style: none;
+    margin : 16px;
+}
+.left-div ul li a{
+    
+}
+.left-div ul li i{
+    margin: 7px;
+}
+.left-div-last{
+    background-color: orangered;
+    padding: 25px;
+    margin: 13px;
+    margin-left: 5px !important;
+    border-radius: 30px;
+}
+#left-div-btn{
+    padding: 5px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'aquire';
+}
+#center-main-div{
+    margin-left: 221px;
+    padding-left: 20px;
+    /* background-color: blue; */
+    width: 760px;
+    border-left: 2px white solid;
+}
+.head-div{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+.search{
+    padding: 12px 20px 12px 20px ;
+    border-radius: 20px;
+    size: 150;
+    width: 600px;
+    /* background-color: #777777; */
+    /* color: aliceblue; */
+}
+.noti-btn{
+    margin-left: 20px;
+    padding: 10px 12px;
+    background-color: #777777;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+.profile-div{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blueviolet; */
+    /* margin-left: 30px; */     
+}
+#name{
+    background-color: #212121;
+    padding: 10px;
+    color: aqua;
+    border: dotted 2px violet;
+    border-radius: 50px;
+}
+#name:disabled{
+    background-color: #212121;
+    border: none;
+    font-family: 'aquire';
+}
+#profile{
+    border-radius: 50% ;
+    width: 40px;
+    margin-right: 10px;
+    /* height: 50px; */
+}
+.body-div{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+.company-name{
+    width: 100%;
+    height: 170px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, rgba(121,9,94,1) 30%, rgba(0,212,255,1) ); ;
+    display: flex;
+    flex-direction: column;
+}
+.company-name span{
+    font-family: 'aquire';
+    font-size: xx-large;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.company-name button{
+    width: 90px;
+    padding: 5px;
+    margin-left: 70px;
+    border-radius: 50px;
+}
+#trend-row{
+    margin-top: 30px;
+    padding-left: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#trend-row button{
+    font-weight: bolder;
+    font-family: 'aquire';
+    margin: 15px;
+}
+
+.trend-title{
+    font-family: 'aquire';
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 490px;
+    overflow-y: scroll;
+}
+.card{
+    margin-top: 100px !important;
+    width: 250px;
+    height: 200px;
+    background-color: #3c434e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    margin: 30px;
+    
+}
+.card-img{
+    background-color: blueviolet;
+    width: 180px;
+    height: 230px;
+    margin-top: -50px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.card-img img{
+    width: 100px;
+    height: 130px;
+    border-radius: 50px;
+}
+.name-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    width: 100%;
+}
+.bid-btn{
+    height: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 5px solid dodgerblue;
+    border-radius: 50px;
+    font-family: 'aquire';
+    font-size: x-small;
+    color: white;
+    background-color: dodgerblue;
+}
+.price{
+    /* background-color: aqua; */
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'aquire';
+    width: 80px;
+
+}
+.eth{
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.right-main-div{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    /* padding: 8px; */
+    /* background-color: yellowgreen; */
+}
+.rigth-down-div{
+    width: 75%;
+    height: 100%;
+    background-color:#3c434e;
+    margin-left: auto;
+    margin-top: 35px;
+    padding: 10px;
+    border-top-left-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start; 
+}
+#fav-song{
+    font-family: heart;
+    margin-left: 2px ;
+    margin-right: auto ;
+    padding: -3px;
+}
+
+.music{
+    background-color:#3c434e;
+    height: 50px;
+    font-family: 'aquire';
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:3px ;
+    padding: 3px;
+    border-radius: 20px;
+    /* border:1px solid whitesmoke;     */
+}
+.music-name{
+    margin-left: 10px;
+    
+}
+.musicbtn{
+    margin-left: auto;
+    margin-right: 5px;
+    padding: 10px ;
+    border-radius: 100%;
+    background-color: green;
+    border-color: white;
+    color: white;
+}
+#top-creator{
+    font-family: heart;
+    margin-left: 2px ;
+    margin-right: auto ;
+}
+.creator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'cheorcy'
+}
+.creator-img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.rigth-down-div h5{
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-family: 'aquire';
+    color: #777777;
+}
+
+#readmorep{
+    position: absolute;
+    background-color: aqua;
+    width: 600px;
+    height: 600px;
+}
