@@ -1,6 +1,5 @@
 # Web-dev
 
-### Jawan Pakistan
 #### Clothing Website:
 https://rahman-clothing.web.app/
 
